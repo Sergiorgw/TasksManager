@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configuración</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <main>
+        <h1>Configuración</h1>
+        <form id="config-form">
+            <select id="audio-language">
+                <option value="es-ES">Español (España)</option>
+                <option value="en-US">Inglés (EE.UU.)</option>
+                <option value="pt-BR">Portugués (Brasil)</option>
+                <option value="de-DE">Alemán (Alemania)</option>
+                <option value="it-IT">Italiano (Italia)</option>
+                <option value="ja-JP">Japonés (Japón)</option>
+                <option value="zh-CN">Chino (China)</option>
+                <option value="ru-RU">Ruso (Rusia)</option>
+            </select>
+            <input type="range" id="audio-speed" min="-0.9" max="1.1" step="0.1" value="1">
+            <button type="submit">Guardar</button>
+        </form>
+    </main>
+    <script src="js/main.js"></script>
+</body>
+</html>

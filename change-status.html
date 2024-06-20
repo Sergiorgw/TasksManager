@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambiar Estado de Tarea</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <main>
+        <h1>Cambiar Estado de Tarea</h1>
+        <form id="change-status-form">
+            <select id="task-select">
+                <!-- Aquí se cargarán las tareas desde MockAPI -->
+            </select>
+            <select id="new-task-status">
+                <option value="pendiente">Pendiente</option>
+                <option value="en-progreso">En Progreso</option>
+                <option value="finalizado">Finalizado</option>
+            </select>
+            <button type="submit">Guardar</button>
+        </form>
+    </main>
+    <script src="js/main.js"></script>
+</body>
+</html>
